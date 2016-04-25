@@ -1,0 +1,3 @@
+#!/usr/bin/awk -f
+
+BEGIN { first=1 }; ( /^#/ ) { if ( first ) { print }; next }; { first=0; print }
