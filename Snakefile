@@ -62,4 +62,4 @@ rule linear:
     output: "{dataset}_{pheno}.assoc.linear"
     params: base="{dataset}", pheno="{pheno}"
     shell:
-        "plink2 --bfile {params.base} --allow-extra-chr --chr chr3R --maf 0.05 --pheno {input.ph} --linear mperm=100000 hide-covar --covar {input.eigenvec} --allow-no-sex --out {params.base}_{params.pheno}"
+        "plink2 --bfile {params.base} --allow-extra-chr --maf 0.05 --pheno {input.ph} --linear mperm=100000 hide-covar --covar {input.eigenvec} --allow-no-sex --out {params.base}_{params.pheno}"
