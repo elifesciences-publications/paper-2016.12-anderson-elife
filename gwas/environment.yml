@@ -1,0 +1,13 @@
+name: gwas-ss-rh
+channels:
+- bioconda
+- conda-forge
+- defaults
+dependencies:
+- parallel=20170422=pl5.22.0_0
+- plink2=1.90b3.35=0
+- openblas=0.2.20=7
+- perl=5.22.0.1=0
+- zlib=1.2.11=0
+- libgfortran=3.0.0=1
+
