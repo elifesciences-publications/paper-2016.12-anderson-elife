@@ -1,3 +1,8 @@
+
+
+### This code is associated with the paper from Anderson et al., "Natural variation in stochastic photoreceptor specification and color preference in Drosophila". eLife, 2017. http://dx.doi.org/10.7554/eLife.29593
+
+
 Methods supporting https://doi.org/10.7554/eLife.29593.001, "Natural variation in stochastic photoreceptor specification and color preference in Drosophila"
 
 # GWAS
